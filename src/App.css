@@ -5,6 +5,7 @@
   /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   font-family: 'Rubik', sans-serif;
   transition: all 0.3s ease-in-out;
+  scroll-behavior: smooth;
 }
 
 :root{
@@ -301,6 +302,11 @@ body{
   font-size: 1rem;
   outline: none;
   margin-bottom: 1.5rem;
+  transition: border 0s;
+}
+
+.contact-section-form-input:focus, .contact-section-form-textarea:focus{
+  border: 2px solid blue;
 }
 
 .contact-section-form-textarea{

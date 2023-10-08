@@ -1,6 +1,6 @@
 export default function MainContent() {
     return (
-        <div className="main-content">
+        <div className="main-content" id="intro">
             <section className="intro-section">
                 <h1 className="main-content-title">Unlock the power of programming</h1>
                 <p className="main-content-text">Learn, Code and Conquer</p>
